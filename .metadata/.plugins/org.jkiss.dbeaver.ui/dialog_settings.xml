@@ -7,7 +7,7 @@
 			<section name="spreadsheet">
 				<item key="enabledPanelIds" value="value-view"/>
 				<item key="activePanelId" value="value-view"/>
-				<item key="panelRatio" value="300"/>
+				<item key="panelRatio" value="272"/>
 				<item key="panelsVisible" value="true"/>
 				<item key="verticalLayout" value="false"/>
 			</section>
@@ -18,6 +18,23 @@
 		<item key="DIALOG_Y_ORIGIN" value="238"/>
 		<item key="DIALOG_WIDTH" value="352"/>
 		<item key="DIALOG_HEIGHT" value="251"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DBeaver.DriverTabbedViewer">
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item key="DIALOG_X_ORIGIN" value="225"/>
+		<item key="DIALOG_Y_ORIGIN" value="50"/>
+		<item key="DIALOG_WIDTH" value="940"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DBeaver.StandardErrorDialog">
+		<item key="showDetails" value="false"/>
+		<item key="DIALOG_X_ORIGIN" value="490"/>
+		<item key="DIALOG_Y_ORIGIN" value="275"/>
+		<item key="DIALOG_WIDTH" value="460"/>
+		<item key="DIALOG_HEIGHT" value="194"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

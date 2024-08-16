@@ -1,0 +1,124 @@
+2024-08-14 16:23:16.916 - DBeaver 24.1.4.202408041450 is starting
+2024-08-14 16:23:16.917 - OS: Windows 10 10.0 (amd64)
+2024-08-14 16:23:16.917 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-08-14 16:23:16.917 - Install path: 'C:\Program Files\DBeaver'
+2024-08-14 16:23:16.917 - Instance path: 'file:/C:/workspace/06_DB/'
+2024-08-14 16:23:16.918 - Memory available 64Mb/1024Mb
+2024-08-14 16:23:16.925 - Create display
+> Start DevStyle Theming - Webicons [com.genuitec.eclipse.webicons 2024.2.0.202406171634]
+> Start JFace [org.eclipse.jface 3.34.0.v20240502-1134]
+2024-08-14 16:23:17.113 - Initialize desktop platform...
+2024-08-14 16:23:17.181 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.400.v20240426-1040]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.17.400.v20240524-2010]
+> Start Client [com.genuitec.eclipse.codetogether.ui.client 2024.3.1.202407230323]
+> Start Workspace [com.genuitec.eclipse.startup.workspace 2024.2.0.202406171634]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.core.common.platform 2024.2.0.202406171634]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.ui.common.platform 2024.2.0.202406171634]
+> Start DevStyle Theming - Color Theme API [com.genuitec.eclipsecolortheme.api 2024.2.0.202406171634]
+> Start Evergreen Updates [com.genuitec.eclipse.webclipse.evergreen 2024.2.0.202406171634]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.200.v20240513-1323]
+> Start Team Support Core [org.eclipse.team.core 3.10.400.v20240413-1529]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.136.202408041450]
+2024-08-14 16:23:17.605 - Initialize base platform...
+2024-08-14 16:23:17.623 - Platform initialized (510ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.136.202408041450]
+2024-08-14 16:23:17.648 - Starting instance server at http://localhost:63905
+2024-08-14 16:23:17.653 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.400.v20240425-0840]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.400.v20240424-0956]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+WARNING: Annotation classes from the 'javax.inject' or 'javax.annotation' package found.
+It is recommended to migrate to the corresponding replacements in the jakarta namespace.
+The Eclipse E4 Platform will remove support for those javax-annotations in a future release.
+To suppress this warning, set the VM property: -Declipse.e4.inject.javax.warning=false
+To disable processing of 'javax' annotations entirely, set the VM property: -Declipse.e4.inject.javax.disabled=true
+
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.37.0.v20231208-1346]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.400.v20240416-0658]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.400.v20240418-1547]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Startup [com.genuitec.eclipse.startup 2024.2.0.202406171634]
+> Start DevStyle Theming - Scrollbar [com.genuitec.eclipse.theming.scrollbar 2024.2.0.202406171634]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.16.0.202405290843]
+> Start DevStyle Theming - Base [com.genuitec.eclipse.theming.base 2024.2.0.202406171634]
+> Start DevStyle Theming - UI [com.genuitec.eclipse.theming.ui 2024.2.0.202406171634]
+> Start Default Text Editor [org.eclipse.ui.editors 3.17.300.v20240524-2010]
+2024-08-14 16:23:18.972 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.126.202408041450]
+2024-08-14 16:23:19.066 - Total database drivers: 119 (119)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-08-14 16:23:19.121 - Create actions
+2024-08-14 16:23:19.125 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-08-14 16:23:19.125 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-08-14 16:23:19.126 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-08-14 16:23:19.126 - Create workbench actions
+> Start Enhanced Explorer JDT Support [com.genuitec.eclipse.meexplorer.jdt 2024.2.0.202406171634]
+> Start Enhanced Explorer [com.genuitec.eclipse.meexplorer 2024.2.0.202406171634]
+> Start Common Navigator View [org.eclipse.ui.navigator 3.12.400.v20240424-0956]
+> Start Eclipse Compiler for Java(TM) [org.eclipse.jdt.core.compiler.batch 3.38.0.v20240524-2033]
+> Start Java Development Tools Core [org.eclipse.jdt.core 3.38.0.v20240528-0618]
+> Start Java Code Manipulation Functionality [org.eclipse.jdt.core.manipulation 1.21.100.v20240524-2038]
+> Start Java Development Tools UI [org.eclipse.jdt.ui 3.32.100.v20240524-2038]
+2024-08-14 16:23:19.655 - Initialize workbench window
+2024-08-14 16:23:19.658 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.136.202408041450]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.136.202408041450]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.112.202408041450]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start JGit SSH support based on Apache MINA sshd [org.eclipse.jgit.ssh.apache 6.10.0.202406032230-r]
+> Start JGit Apache httpclient based HTTP support [org.eclipse.jgit.http.apache 6.10.0.202406032230-r]
+> Start JSch Core [org.eclipse.jsch.core 1.5.400.v20240413-1649]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.400.v20240413-1529]
+> Start CodeTogether UI [com.genuitec.eclipse.codetogether.ui 2024.3.1.202407230323]
+> Start Debug Core [org.eclipse.debug.core 3.21.400.v20240415-0528]
+> Start Debug UI [org.eclipse.debug.ui 3.18.400.v20240516-0857]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Browser Support [org.eclipse.ui.browser 3.8.300.v20240524-2010]
+> Start CodeTogether Core [com.genuitec.eclipse.codetogether.core 2024.3.1.202407230323]
+> Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.12.0.v20240515-1919]
+> Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.10.200.v20240425-1316]
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.9.100.v20240416-0654]
+> Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.5.400.v20240515-1919]
+> Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.9.100.v20240511-1722]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.173.202408041450]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.142.202408041450]
+> Start Language Server Protocol client for CodeTogether [com.genuitec.eclipse.lsp4e 2024.3.1.202407230323]
+> Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.8.400.v20240511-1722]
+> Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.7.400.v20240425-0751]
+> Start Equinox Provisioning Platform Update Support [org.eclipse.equinox.p2.ui.sdk 1.3.300.v20240207-1113]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.18.0.202405290843]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.96.202408041450]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.96.202408041450]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.133.202408041450]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.9.202408041450]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.29.202408041450]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.221.202408041450]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.127.202408041450]
+8월 14, 2024 4:23:21 오후 org.glassfish.grizzly.http.server.NetworkListener start
+정보: Started listener bound to [localhost:1597]
+8월 14, 2024 4:23:21 오후 org.glassfish.grizzly.http.server.HttpServer start
+정보: [HttpServer] Started.
+> Start Core Variables [org.eclipse.core.variables 3.6.400.v20240413-1529]
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.114.202408041450]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.123.202408041450]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.114.202408041450]
+2024-08-14 16:23:21.822 - Connect with 'KH_LHH(KH1234)' (oracle_thin-1914e877695-69289b1a262ae464)
+2024-08-14 16:23:21.844 - Execution context opened (KH_LHH(KH1234); Main; 0)
+2024-08-14 16:23:22.149 - Execution context opened (KH_LHH(KH1234); Metadata; 1)
+2024-08-14 16:23:22.237 - Connected (oracle_thin-1914e877695-69289b1a262ae464, Oracle JDBC driver [19.18.0.0.0])
+2024-08-14 16:23:22.245 - Execution context opened (KH_LHH(KH1234); SQLEditor <01_SELECT.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.31.202408041450]
+> Start Team Support UI [org.eclipse.team.ui 3.10.400.v20240416-0654]
+2024-08-14 17:45:40.024 - Execution context closed (KH_LHH(KH1234), 2)
+2024-08-14 17:45:40.195 - DBeaver is stopping
+2024-08-14 17:45:40.196 - Stop instance server
+2024-08-14 17:45:41.199 - Instance server has been stopped
+2024-08-14 17:45:41.200 - DBeaver shutdown completed
