@@ -76,31 +76,6 @@ FROM TB_PROFESSOR;
 
 --------------------------------------------------------
 
-SELECT STUDENT_NAME AS "학생 이름", STUDENT_ADDRESS AS "주소지"
-FROM TB_STUDENT,
-ORDER BY STUDENT_NAME ASC;
-
---------------------------------------------------------
-
-SELECT STUDENT_NAME, STUDENT_SSN
-FROM TB_STUDENT
-WHERE ABSENCE_YN = 'Y'
-ORDER BY STUDENT_SSN DESC;
-
----------------------------------------------------------
-
-SELECT STUDENT_NAME AS "학생이름", STUDENT_NO AS "학번", STUDENT_ADDRESS AS "거주지 주소"
-FROM TB_STUDENT
-WHERE STUDENT_ADDRESS LIKE '경기도%'
-	    AND SUBSTR(STUDENT_NO, 2, 1) = '9'
-ORDER BY STUDENT_NAME ASC;
-
-----------------------------------------------------------
-
-SELECT PROFESSOR_NAME, PROFESSOR_SSN
-FROM TB_PROFESSOR
-WHERE 
-ORDER BY PROFESSOR_SSN ASC;
 
 
 

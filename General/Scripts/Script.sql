@@ -1,0 +1,198 @@
+SELECT EMP_NAME, JOB_CODE, JOB_NAME
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE);
+
+-- NATURAL JOIN
+SELECT EMP_NAME, JOB_CODE, JOB_NAME
+FROM EMPLOYEE
+NATURAL JOIN JOB;
+
+/* NATURAL JOIN 실패
+ * -> 같은 컬럼명, 자료형이 없을 경우 JOIN 실패
+ *  --> 결과로 CROSS JOIN 형태가 조회된다
+ * */
+SELECT EMP_NAME, DEPT_TITLE
+FROM EMPLOYEE
+NATURAL JOIN DEPARTMENT;
+
+----------------------------------------------
+
+-- 7. 다중 조언
+-- N개의 테이블을 조회할 때 사용  (순서 중요!)
+
+-- EMPLOYEE, DEPARTMENT, LOCATION 테이블 JOIN하기
+
+-- 1) EMPLOYEE(DEPT_CODE), DEPARTMENT(DEPT_ID) JOIN
+-- 2) DEPARTMENT(LOCATION_ID), LOCATION(LOCAL_CODE) JOIN
+
+
+-- ANSI 표준
+SELECT *
+FROM EMPLOYEE
+JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN LOCATION ON (LOCATION_ID = LOCAL_CODE);
+
+-- 오라클 전용
+SELECT EMP_NAME, DEPT_TITLE, LOCAL_NAME
+FROM EMPLOYEE, DEPARTMENT, LOCATION
+WHERE DEPT_CODE = DEPT_ID
+AND LOCATION_ID = LOCAL_CODE;
+
+-- 조인 순서를 지키지 않은 경우(에러발생)
+-- SELECT EMP_NAME, DEPT_TITLE, LOCAL_NAME
+-- FROM EMPLOYEE
+-- JOIN LOCATION ON (LOCATION_ID = LOCAL_CODE)
+-- JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID);
+
+--[다중 조인 연습 문제]
+
+-- 직급이 대리이면서 아시아 지역에 근무하는 직원 조회
+-- 사번, 이름, 직급명, 부서명, 근무지역명, 급여를 조회하세요
+
+-- EMPLOYEE, JOB, DEPARTMENT, LOCATION 4개 테이블 JOIN
+SELECT EMP_ID, 
+       EMP_NAME, 
+       JOB_NAME, 
+       DEPT_TITLE, 
+       LOCAL_NAME,
+       SALARY
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE)
+JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+JOIN LOCATION ON(LOCATION_ID = LOCAL_CODE)
+WHERE JOB_NAME = '대리'
+AND LOCAL_NAME LIKE 'ASIA%';
+
+------------------------------------------------------------
+SELECT EMP_NAME, EMP_NO, DEPT_TITLE, JOB_NAME
+FROM EMPLOYEE
+JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+JOIN JOB USING(JOB_CODE)
+WHERE SUBSTR(EMP_NO,1,1) = '8'
+AND SUBSTR(EMP_NO,8,1) = '2'
+AND EMP_NAME LIKE '전%';
+
+------------------------------------------------------------
+
+SELECT EMP_ID, EMP_NAME, JOB_NAME
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE)
+WHERE EMP_NAME LIKE '%형%';
+
+----------------------------------------------------------------
+
+SELECT EMP_NAME, JOB_NAME, DEPT_CODE, DEPT_TITLE
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE)
+JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+WHERE DEPT_TITLE LIKE '해외영업%'
+ORDER BY EMP_ID ASC;
+
+---------------------------------------------------------------
+
+SELECT EMP_NAME, BONUS, DEPT_TITLE, LOCAL_NAME
+FROM EMPLOYEE
+JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+JOIN LOCATION ON(LOCATION_ID = LOCAL_CODE)
+WHERE BONUS IS NOT NULL;
+
+-----------------------------------------------------------------
+
+SELECT EMP_NAME, JOB_NAME, DEPT_TITLE, LOCAL_NAME
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE)
+JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+JOIN LOCATION ON(LOCATION_ID = LOCAL_CODE)
+WHERE DEPT_TITLE IS NOT NULL;
+
+---------------------------------------------------------------------
+
+SELECT EMP_NAME, JOB_NAME, SALARY, (SALARY * ( 1+ BONUS)) * 12 연봉
+FROM EMPLOYEE
+JOIN JOB USING(JOB_CODE)
+JOIN SAL_GRADE USING(SAL_LEVEL)
+WHERE SALARY > SAL_GRADE.MIN_SAL
+ORDER BY EMP_ID ASC;
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

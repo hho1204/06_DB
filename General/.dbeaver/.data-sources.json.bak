@@ -53,7 +53,7 @@
 		"oracle_thin-1915a033ca6-7e58f9b93ce064e3": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "khj-1.xyz",
+			"name": "WORKBOOK계정",
 			"save-password": true,
 			"configuration": {
 				"host": "khj-1.xyz",
@@ -69,7 +69,14 @@
 					"@dbeaver-sid-service@": "SERVICE"
 				},
 				"auth-model": "oracle_native"
-			}
+			},
+			"filters": [
+				{
+					"type": "org.jkiss.dbeaver.ext.oracle.model.OracleSchema",
+					"enabled": true,
+					"include": ["WORKBOOK"]
+				}
+			]
 		}
 	},
 	"connection-types": {

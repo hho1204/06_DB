@@ -1,0 +1,24 @@
+SELECT FLOOR(AVG(SALARY))
+FROM EMPLOYEE;
+
+-- 2) 직원들중 급여가 4091140원 이상인 사원들의 사번, 이름, 직급코드, 급여 조회
+SELECT EMP_ID, EMP_NAME, JOB_CODE, SALARY
+FROM EMPLOYEE
+WHERE SALARY >= 4091140;
+     (SELECT FLOOR(AVG(SALARY))
+     FROM EMPLOYEE);
+     
+/*************************************************/
+-- 기본적으로 "서브 쿼리"를 먼저 해석!!!!
+ --> 서브쿼리 결과를 이용해서 "메인 쿼리 " 해석!!!
+    
+-- 단, 상호연관 서브쿼리는 순서가 반대!!(메인 -> 서브)
+
+/*************************************************/
+/*SELECT *
+--FROM EMPLOYEE
+--JOIN JOB USING(JOB_CODE)
+--LEFT JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
+--WHERE SALARY > SUM(SALARY);
+    
+    
