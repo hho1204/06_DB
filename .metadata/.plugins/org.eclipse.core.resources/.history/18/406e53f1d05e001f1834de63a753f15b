@@ -403,7 +403,6 @@ WHERE DEPT_CODE = (
 	WHERE ENT_YN = 'Y' 
 	AND   SUBSTR(EMP_NO, 8, 1) IN ('2', '4')
 );
-
 -------------------------- 연습문제 -------------------------------
 -- 1. 노옹철 사원과 같은 부서, 같은 직급인 사원을 조회하시오. (단, 노옹철 사원은 제외)
 --    사번, 이름, 부서코드, 직급코드, 부서명, 직급명
@@ -422,8 +421,12 @@ SELECT EMP_ID,EMP_NAME,DEPT_CODE, JOB_CODE, HIRE_DATE
 FROM EMPLOYEE
 WHERE (DEPT_CODE, JOB_CODE) = (SELECT DEPT_CODE,JOB_CODE 
                                FROM EMPLOYEE
-                               WHERE EXTRACT(YEAR FROM HIRE_DATE) = 2010
-                               );
+                               )
+
+
+
+
+
 
 
 -- 3. 87년생 여자 사원과 동일한 부서이면서 동일한 사수를 가지고 있는 사원을 조회하시오
@@ -433,8 +436,7 @@ FROM EMPLOYEE
 WHERE (DEPT_CODE,MANAGER_ID) = (SELECT DEPT_CODE, MANAGER_ID
                                 FROM EMPLOYEE
                                 WHERE SUBSTR(EMP_NO, 1, 2) = '87'
-                                AND SUBSTR(EMP_NO, 8, 1) = '2'
-                               );
+                                AND SUBSTR(EMP_NO, 8, 1) = '2');
 
 
 
@@ -449,23 +451,13 @@ WHERE (DEPT_CODE,MANAGER_ID) = (SELECT DEPT_CODE, MANAGER_ID
 -- 단, 급여와 급여 평균은 만원단위로 계산하세요 TRUNC(컬럼명, -4)    
 
 -- 1) 급여를 200, 600만 받는 직원 (200만, 600만이 평균급여라 생각 할 경우)
-SELECT EMP_ID, EMP_NAME, JOB_CODE, SALARY
-FROM EMPLOYEE
-WHERE SALARY IN (3000000, 7000000);
+
 
 -- 2) 직급별 평균 급여
-SELECT JOB_CODE, TRUNC( AVG(SALARY),  -4)
-FROM EMPLOYEE
-GROUP BY JOB_CODE;
+
 
 -- 3) 본인 직급의 평균 급여를 받고 있는 직원
-SELECT EMP_ID, EMP_NAME, JOB_CODE, SALARY
-FROM EMPLOYEE
-WHERE (JOB_CODE, SALARY) IN (
-	SELECT JOB_CODE, TRUNC( AVG(SALARY),  -4)
-	FROM EMPLOYEE
-	GROUP BY JOB_CODE
-);
+
                   
                 
 
@@ -475,73 +467,24 @@ WHERE (JOB_CODE, SALARY) IN (
 --    상관 쿼리는 메인쿼리가 사용하는 테이블값을 서브쿼리가 이용해서 결과를 만듦
 --    메인쿼리의 테이블값이 변경되면 서브쿼리의 결과값도 바뀌게 되는 구조임
 
--- 보통의 SELECT문은 서브쿼리 -> 메인쿼리 순서로 해석하는데
--- 상관 서브쿼리는
--- 메인쿼리 1행 해석 -> 서브쿼리 수행 -> 다시 메인쿼리 1행 해석 -> 서브쿼리 수행
--- .... (메인쿼리 모든행 조회할 때 까지 반복)
-
 -- 상관쿼리는 먼저 메인쿼리 한 행을 조회하고
 -- 해당 행이 서브쿼리의 조건을 충족하는지 확인하여 SELECT를 진행함
 
 
 -- 사수가 있는 직원의 사번, 이름, 부서명, 사수사번 조회
-SELECT EMP_ID, EMP_NAME, DEPT_TITLE, MANAGER_ID 
-FROM EMPLOYEE "MAIN"
-LEFT JOIN DEPARTMENT ON(DEPT_CODE = DEPT_ID)
-WHERE EXISTS( -- 서브쿼리 조회 결과가 있으면 TRUE == 해당 행을 결과에 포함
-    SELECT '있음' -- 서브쿼리에서 조회되는 컬럼 값은 중요한게 아님!!
-    						-- 조회되는 데이터가 있는지 없는지가 중요!
-    FROM EMPLOYEE "SUB"
-    WHERE "SUB".EMP_ID = "MAIN".MANAGER_ID
-);
+
 
 
 -- 직급별 급여 평균보다 급여를 많이 받는 직원의 
 -- 이름, 직급코드, 급여 조회
 
--- 직급별 급여 평균
-SELECT JOB_CODE, AVG(SALARY)
-FROM EMPLOYEE
-GROUP BY JOB_CODE
-ORDER BY JOB_CODE ASC;
-
-
-SELECT EMP_NAME, JOB_CODE, SALARY
-FROM EMPLOYEE "MAIN" -- 메인 쿼리 테이블 별칭이 "MAIN"
-WHERE SALARY > (
-	  SELECT AVG(SALARY)
-	  FROM EMPLOYEE "SUB" -- 서브쿼리 테이블 별칭이 "SUB"
-	  WHERE SUB.JOB_CODE = MAIN.JOB_CODE
-	    -- 먼저 해석된 메인쿼리의 1개행에
-	    -- JOB_CODE 값을 얻어와
-	    -- 서브쿼리 해석에 사용
-);
 
 
 -- 부서별 입사일이 가장 빠른 사원의
 --    사번, 이름, 부서명(NULL이면 '소속없음'), 직급명, 입사일을 조회하고
 --    입사일이 빠른 순으로 조회하세요
 --    단, 퇴사한 직원은 제외하고 조회하세요
-SELECT EMP_ID, EMP_NAME, NVL(DEPT_TITLE, '소속 없음'), JOB_NAME, HIRE_DATE
-FROM EMPLOYEE "MAIN"
-LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
-JOIN JOB USING (JOB_CODE)
 
-WHERE HIRE_DATE = (
-		-- 메인쿼리 1행을 해석했을 때 조회되는 행 중에서
-    -- DEPT_CODE 값을 얻어와 
-    -- 서브쿼리에서 해당 DEPT_CODE가 일치하는 사원들 중
-    -- 가장 빠른 입사일을 조회
-    SELECT MIN(HIRE_DATE)
-    FROM EMPLOYEE "SUB"
-    WHERE NVL("SUB".DEPT_CODE, '소속없음') 
-				= NVL("MAIN".DEPT_CODE, '소속없음') 
-				--> NULL은 비교가 안되기 때문에 가능한 형태로 변환
-		AND ENT_YN != 'Y' --> 퇴사자 제외
-    
-    --> 서브쿼리에서 조회된 결과를 다시 메인쿼리로 넘겨
-	  --  메인쿼리 WHERE절 조건을 충족하는지 확인
-); 
 
 
 ----------------------------------------------------------------------------------
