@@ -20,12 +20,12 @@
 		<column name="Partition interval" visible="true" order="10" width="102"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="10947"/>
-		<column name="#" visible="true" order="1" width="10875"/>
-		<column name="Type" visible="true" order="2" width="10942"/>
+		<column name="컬럼명" visible="true" order="0" width="10995"/>
+		<column name="#" visible="true" order="1" width="10863"/>
+		<column name="Type" visible="true" order="2" width="10936"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="10907"/>
-		<column name="디폴트" visible="true" order="4" width="10898"/>
-		<column name="Comment" visible="true" order="5" width="10934"/>
+		<column name="Not Null" visible="true" order="3" width="10895"/>
+		<column name="디폴트" visible="true" order="4" width="10886"/>
+		<column name="Comment" visible="true" order="5" width="10928"/>
 	</item>
 </items>
