@@ -1,0 +1,727 @@
+2024-08-23 10:14:35.963 - DBeaver 24.1.4.202408041450 is starting
+2024-08-23 10:14:35.963 - OS: Windows 10 10.0 (amd64)
+2024-08-23 10:14:35.963 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-08-23 10:14:35.963 - Install path: 'C:\Program Files\DBeaver'
+2024-08-23 10:14:35.964 - Instance path: 'file:/C:/workspace/06_DB/'
+2024-08-23 10:14:35.964 - Memory available 64Mb/1024Mb
+2024-08-23 10:14:35.974 - Create display
+> Start DevStyle Theming - Webicons [com.genuitec.eclipse.webicons 2024.2.0.202406171634]
+> Start JFace [org.eclipse.jface 3.34.0.v20240502-1134]
+2024-08-23 10:14:36.359 - Initialize desktop platform...
+2024-08-23 10:14:36.449 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.400.v20240426-1040]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.17.400.v20240524-2010]
+> Start Client [com.genuitec.eclipse.codetogether.ui.client 2024.3.1.202407230323]
+> Start Workspace [com.genuitec.eclipse.startup.workspace 2024.2.0.202406171634]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.core.common.platform 2024.2.0.202406171634]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.ui.common.platform 2024.2.0.202406171634]
+> Start DevStyle Theming - Color Theme API [com.genuitec.eclipsecolortheme.api 2024.2.0.202406171634]
+> Start Evergreen Updates [com.genuitec.eclipse.webclipse.evergreen 2024.2.0.202406171634]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.200.v20240513-1323]
+> Start Team Support Core [org.eclipse.team.core 3.10.400.v20240413-1529]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.136.202408041450]
+2024-08-23 10:14:43.707 - Initialize base platform...
+2024-08-23 10:14:43.725 - Platform initialized (7365ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.136.202408041450]
+2024-08-23 10:14:43.761 - Starting instance server at http://localhost:55806
+2024-08-23 10:14:43.769 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.400.v20240425-0840]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.400.v20240424-0956]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+WARNING: Annotation classes from the 'javax.inject' or 'javax.annotation' package found.
+It is recommended to migrate to the corresponding replacements in the jakarta namespace.
+The Eclipse E4 Platform will remove support for those javax-annotations in a future release.
+To suppress this warning, set the VM property: -Declipse.e4.inject.javax.warning=false
+To disable processing of 'javax' annotations entirely, set the VM property: -Declipse.e4.inject.javax.disabled=true
+
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.37.0.v20231208-1346]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.400.v20240416-0658]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.400.v20240418-1547]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Startup [com.genuitec.eclipse.startup 2024.2.0.202406171634]
+> Start DevStyle Theming - Scrollbar [com.genuitec.eclipse.theming.scrollbar 2024.2.0.202406171634]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.16.0.202405290843]
+> Start DevStyle Theming - Base [com.genuitec.eclipse.theming.base 2024.2.0.202406171634]
+> Start DevStyle Theming - UI [com.genuitec.eclipse.theming.ui 2024.2.0.202406171634]
+> Start Default Text Editor [org.eclipse.ui.editors 3.17.300.v20240524-2010]
+2024-08-23 10:14:45.223 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.126.202408041450]
+2024-08-23 10:14:45.310 - Total database drivers: 119 (119)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-08-23 10:14:45.370 - Create actions
+2024-08-23 10:14:45.374 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-08-23 10:14:45.375 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-08-23 10:14:45.375 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-08-23 10:14:45.375 - Create workbench actions
+> Start Enhanced Explorer JDT Support [com.genuitec.eclipse.meexplorer.jdt 2024.2.0.202406171634]
+> Start Enhanced Explorer [com.genuitec.eclipse.meexplorer 2024.2.0.202406171634]
+> Start Common Navigator View [org.eclipse.ui.navigator 3.12.400.v20240424-0956]
+> Start Eclipse Compiler for Java(TM) [org.eclipse.jdt.core.compiler.batch 3.38.0.v20240524-2033]
+> Start Java Development Tools Core [org.eclipse.jdt.core 3.38.0.v20240528-0618]
+> Start Java Code Manipulation Functionality [org.eclipse.jdt.core.manipulation 1.21.100.v20240524-2038]
+> Start Java Development Tools UI [org.eclipse.jdt.ui 3.32.100.v20240524-2038]
+2024-08-23 10:14:45.880 - Initialize workbench window
+2024-08-23 10:14:45.883 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.136.202408041450]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.136.202408041450]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.112.202408041450]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start JGit SSH support based on Apache MINA sshd [org.eclipse.jgit.ssh.apache 6.10.0.202406032230-r]
+> Start JGit Apache httpclient based HTTP support [org.eclipse.jgit.http.apache 6.10.0.202406032230-r]
+> Start JSch Core [org.eclipse.jsch.core 1.5.400.v20240413-1649]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.400.v20240413-1529]
+> Start CodeTogether UI [com.genuitec.eclipse.codetogether.ui 2024.3.1.202407230323]
+> Start Debug Core [org.eclipse.debug.core 3.21.400.v20240415-0528]
+> Start Debug UI [org.eclipse.debug.ui 3.18.400.v20240516-0857]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Browser Support [org.eclipse.ui.browser 3.8.300.v20240524-2010]
+> Start CodeTogether Core [com.genuitec.eclipse.codetogether.core 2024.3.1.202407230323]
+> Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.12.0.v20240515-1919]
+> Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.10.200.v20240425-1316]
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.9.100.v20240416-0654]
+> Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.5.400.v20240515-1919]
+> Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.9.100.v20240511-1722]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.173.202408041450]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.142.202408041450]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.18.0.202405290843]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.96.202408041450]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.96.202408041450]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.133.202408041450]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.9.202408041450]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.127.202408041450]
+> Start Language Server Protocol client for CodeTogether [com.genuitec.eclipse.lsp4e 2024.3.1.202407230323]
+> Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.8.400.v20240511-1722]
+> Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.7.400.v20240425-0751]
+> Start Core Variables [org.eclipse.core.variables 3.6.400.v20240413-1529]
+> Start Equinox Provisioning Platform Update Support [org.eclipse.equinox.p2.ui.sdk 1.3.300.v20240207-1113]
+8월 23, 2024 10:14:47 오전 org.glassfish.grizzly.http.server.NetworkListener start
+정보: Started listener bound to [localhost:1595]
+8월 23, 2024 10:14:47 오전 org.glassfish.grizzly.http.server.HttpServer start
+정보: [HttpServer] Started.
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+2024-08-23 10:14:47.802 - Connect with 'KH_LHH(KH1234)' (oracle_thin-1914e877695-69289b1a262ae464)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.29.202408041450]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.221.202408041450]
+2024-08-23 10:14:47.838 - Execution context opened (KH_LHH(KH1234); Main; 0)
+2024-08-23 10:14:48.167 - Execution context opened (KH_LHH(KH1234); Metadata; 1)
+2024-08-23 10:14:48.230 - Connected (oracle_thin-1914e877695-69289b1a262ae464, Oracle JDBC driver [19.18.0.0.0])
+2024-08-23 10:14:48.245 - Execution context opened (KH_LHH(KH1234); SQLEditor <09_DDL(ALTER,DROP).sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.31.202408041450]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.120.202408041450]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.114.202408041450]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.123.202408041450]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.114.202408041450]
+> Start Team Support UI [org.eclipse.team.ui 3.10.400.v20240416-0654]
+2024-08-23 10:19:24.270 - Duplicate object name 'USER_GRADE' in cache TableCache. Last value: KH_LHH.USER_GRADE
+2024-08-23 10:19:44.012 - Error while analyzing query text: -- DEPT_COPY 테이블에 PK 추가
+ALTER TABLE 
+-- DEPT_COPY 테이블의 DEPT_TITLE 컬럼에 UNIQUE 제약조건 추가
+
+
+-- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+
+
+-- DEPT_COPY 테이블의 DEPT_TITLE 컬럼에 NOT NULL 제약조건 추가
+-- * NOT NULL 제약조건은 다루는 방법이 다름
+-->  NOT NULL을 제외한 제약 조건은 추가적인 조건으로 인식됨.(ADD/DROP)
+-->  NOT NULL은 기존 컬럼의 성질을 변경하는 것으로 인식됨.(MODIFY)
+
+---------------------------
+
+-- DEPT_COPY에 추가한 제약조건 중 PK 빼고 모두 삭제
+
+-- NOT NULL 제거 시 MODIFY 사용
+
+
+---------------------------------------------------------------------------------
+-- 2. 컬럼 추가/수정/삭제
+
+-- 컬럼 추가 : ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- 컬럼 수정 : ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;   (데이터 타입 변경)
+--             ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; (기본값 변경)
+
+--> ** 데이터 타입 수정 시 컬럼에 저장된 데이터 크기 미만으로 변경할 수 없다.
+
+
+-- 컬럼 삭제 : ALTER TABLE 테이블명 DROP (삭제할컬럼명);
+--             ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+--> ** 테이블에는 최소 1개 이상의 컬럼이 존재해야 되기 때문에 모든 컬럼 삭제 X
+
+-- 테이블이란? 행과 열로 이루어진 데이터베이스의 가장 기본적인 객체
+
+
+-- (추가)
+-- DEPT_COPY 컬럼에 CNAME VARCHAR2(20) 컬럼 추가
+-- ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- (추가)
+-- DEPT_COPY 테이블에 LNAME VARCHAR2(30) 기본값 '한국' 컬럼 추가
+
+
+-- (수정)
+-- DEPT_COPY 테이블의 DEPT_ID 컬럼의 데이터 타입을 CHAR(2) -> VARCHAR2(3)으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;
+
+
+-- (수정 에러 상황)
+-- DEPT_TITLE 컬럼의 데이터타입을 VARCHAR2(10)으로 변경
+
+
+-- (기본값 수정)
+-- LNAME 기본값을 '한국' -> '대한민국' 으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; 
+
+
+-- (삭제)
+-- DEPT_COPY에 추가한 컬럼(CNAME, LNAME) 삭제
+-->  ALTER TABLE 테이블명 DROP(삭제할컬럼명);
+
+
+-->  ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+
+
+
+-- * DDL / DML을 혼용해서 사용할 경우 발생하는 문제점
+-- DML을 수행하여 트랜잭션에 변경사항이 저장된 상태에서
+-- COMMIT/ROLLBACK 없이 DDL 구문을 수행하게되면
+-- DDL 수행과 동시에 선행 DML이 자동으로 COMMIT 되어버림.
+
+
+
+
+--> 결론 : DML/DDL 혼용해서 사용하지 말자!!!
+
+
+-------------------------------------------------------------------------------
+
+-- 3. 테이블 삭제
+
+-- [작성법]
+-- DROP TABLE 테이블명 [CASCADE CONSTRAINTS];
+
+
+-- 일반 삭제(DEPT_COPY)
+
+
+
+-- ** 관계가 형성된 테이블 삭제 **
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+-- 4. 컬럼, 제약조건, 테이블 이름 변경(RENAME)
+
+-- 테이블 복사
+CREATE TABLE DEPT_COPY AS SELECT * FROM DEPARTMENT
+java.lang.UnsupportedOperationException: identifier expected while facing with error
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:345)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:441)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:422)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:238)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:183)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:735)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:542)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:90)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-08-23 10:23:06.577 - Error while analyzing query text: -- DEPT_COPY 테이블의 DEPT_TITLE 컬럼에 UNIQUE 제약조건 추가
+-- (DEPT_COPY_TITLE_U)
+ALTER TABLE 
+
+-- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+
+
+-- DEPT_COPY 테이블의 DEPT_TITLE 컬럼에 NOT NULL 제약조건 추가
+-- * NOT NULL 제약조건은 다루는 방법이 다름
+-->  NOT NULL을 제외한 제약 조건은 추가적인 조건으로 인식됨.(ADD/DROP)
+-->  NOT NULL은 기존 컬럼의 성질을 변경하는 것으로 인식됨.(MODIFY)
+
+---------------------------
+
+-- DEPT_COPY에 추가한 제약조건 중 PK 빼고 모두 삭제
+
+-- NOT NULL 제거 시 MODIFY 사용
+
+
+---------------------------------------------------------------------------------
+-- 2. 컬럼 추가/수정/삭제
+
+-- 컬럼 추가 : ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- 컬럼 수정 : ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;   (데이터 타입 변경)
+--             ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; (기본값 변경)
+
+--> ** 데이터 타입 수정 시 컬럼에 저장된 데이터 크기 미만으로 변경할 수 없다.
+
+
+-- 컬럼 삭제 : ALTER TABLE 테이블명 DROP (삭제할컬럼명);
+--             ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+--> ** 테이블에는 최소 1개 이상의 컬럼이 존재해야 되기 때문에 모든 컬럼 삭제 X
+
+-- 테이블이란? 행과 열로 이루어진 데이터베이스의 가장 기본적인 객체
+
+
+-- (추가)
+-- DEPT_COPY 컬럼에 CNAME VARCHAR2(20) 컬럼 추가
+-- ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- (추가)
+-- DEPT_COPY 테이블에 LNAME VARCHAR2(30) 기본값 '한국' 컬럼 추가
+
+
+-- (수정)
+-- DEPT_COPY 테이블의 DEPT_ID 컬럼의 데이터 타입을 CHAR(2) -> VARCHAR2(3)으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;
+
+
+-- (수정 에러 상황)
+-- DEPT_TITLE 컬럼의 데이터타입을 VARCHAR2(10)으로 변경
+
+
+-- (기본값 수정)
+-- LNAME 기본값을 '한국' -> '대한민국' 으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; 
+
+
+-- (삭제)
+-- DEPT_COPY에 추가한 컬럼(CNAME, LNAME) 삭제
+-->  ALTER TABLE 테이블명 DROP(삭제할컬럼명);
+
+
+-->  ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+
+
+
+-- * DDL / DML을 혼용해서 사용할 경우 발생하는 문제점
+-- DML을 수행하여 트랜잭션에 변경사항이 저장된 상태에서
+-- COMMIT/ROLLBACK 없이 DDL 구문을 수행하게되면
+-- DDL 수행과 동시에 선행 DML이 자동으로 COMMIT 되어버림.
+
+
+
+
+--> 결론 : DML/DDL 혼용해서 사용하지 말자!!!
+
+
+-------------------------------------------------------------------------------
+
+-- 3. 테이블 삭제
+
+-- [작성법]
+-- DROP TABLE 테이블명 [CASCADE CONSTRAINTS];
+
+
+-- 일반 삭제(DEPT_COPY)
+
+
+
+-- ** 관계가 형성된 테이블 삭제 **
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+-- 4. 컬럼, 제약조건, 테이블 이름 변경(RENAME)
+
+-- 테이블 복사
+CREATE TABLE DEPT_COPY AS SELECT * FROM DEPARTMENT
+java.lang.UnsupportedOperationException: identifier expected while facing with error
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:345)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:441)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:422)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:238)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:183)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:735)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:542)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:90)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-08-23 10:24:38.956 - Error while analyzing query text: -- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+ALTER TABLE 
+
+-- DEPT_COPY 테이블의 DEPT_TITLE 컬럼에 NOT NULL 제약조건 추가
+-- * NOT NULL 제약조건은 다루는 방법이 다름
+-->  NOT NULL을 제외한 제약 조건은 추가적인 조건으로 인식됨.(ADD/DROP)
+-->  NOT NULL은 기존 컬럼의 성질을 변경하는 것으로 인식됨.(MODIFY)
+
+---------------------------
+
+-- DEPT_COPY에 추가한 제약조건 중 PK 빼고 모두 삭제
+
+-- NOT NULL 제거 시 MODIFY 사용
+
+
+---------------------------------------------------------------------------------
+-- 2. 컬럼 추가/수정/삭제
+
+-- 컬럼 추가 : ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- 컬럼 수정 : ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;   (데이터 타입 변경)
+--             ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; (기본값 변경)
+
+--> ** 데이터 타입 수정 시 컬럼에 저장된 데이터 크기 미만으로 변경할 수 없다.
+
+
+-- 컬럼 삭제 : ALTER TABLE 테이블명 DROP (삭제할컬럼명);
+--             ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+--> ** 테이블에는 최소 1개 이상의 컬럼이 존재해야 되기 때문에 모든 컬럼 삭제 X
+
+-- 테이블이란? 행과 열로 이루어진 데이터베이스의 가장 기본적인 객체
+
+
+-- (추가)
+-- DEPT_COPY 컬럼에 CNAME VARCHAR2(20) 컬럼 추가
+-- ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- (추가)
+-- DEPT_COPY 테이블에 LNAME VARCHAR2(30) 기본값 '한국' 컬럼 추가
+
+
+-- (수정)
+-- DEPT_COPY 테이블의 DEPT_ID 컬럼의 데이터 타입을 CHAR(2) -> VARCHAR2(3)으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;
+
+
+-- (수정 에러 상황)
+-- DEPT_TITLE 컬럼의 데이터타입을 VARCHAR2(10)으로 변경
+
+
+-- (기본값 수정)
+-- LNAME 기본값을 '한국' -> '대한민국' 으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; 
+
+
+-- (삭제)
+-- DEPT_COPY에 추가한 컬럼(CNAME, LNAME) 삭제
+-->  ALTER TABLE 테이블명 DROP(삭제할컬럼명);
+
+
+-->  ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+
+
+
+-- * DDL / DML을 혼용해서 사용할 경우 발생하는 문제점
+-- DML을 수행하여 트랜잭션에 변경사항이 저장된 상태에서
+-- COMMIT/ROLLBACK 없이 DDL 구문을 수행하게되면
+-- DDL 수행과 동시에 선행 DML이 자동으로 COMMIT 되어버림.
+
+
+
+
+--> 결론 : DML/DDL 혼용해서 사용하지 말자!!!
+
+
+-------------------------------------------------------------------------------
+
+-- 3. 테이블 삭제
+
+-- [작성법]
+-- DROP TABLE 테이블명 [CASCADE CONSTRAINTS];
+
+
+-- 일반 삭제(DEPT_COPY)
+
+
+
+-- ** 관계가 형성된 테이블 삭제 **
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+-- 4. 컬럼, 제약조건, 테이블 이름 변경(RENAME)
+
+-- 테이블 복사
+CREATE TABLE DEPT_COPY AS SELECT * FROM DEPARTMENT
+java.lang.UnsupportedOperationException: identifier expected while facing with error
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:345)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:441)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:422)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:238)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:183)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:735)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:542)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:90)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-08-23 10:26:21.628 - Error positioning on query error
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:104)
+	at org.eclipse.jface.text.Position.<init>(Position.java:66)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:1043)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4881)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4832)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1852)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:291)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:648)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:608)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1459)
+> Start Refactoring Core [org.eclipse.ltk.core.refactoring 3.14.400.v20240321-1245]
+2024-08-23 10:26:21.802 - SQL Error [2438] [72000]: ORA-02438: 열 검사제약은 다른 열을 참조할 수 없습니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2438] [72000]: ORA-02438: 열 검사제약은 다른 열을 참조할 수 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02438: 열 검사제약은 다른 열을 참조할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:553)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2438, Position : 277, Sql = -- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+ALTER TABLE DEPT_COPY
+ADD CONSTRAINT LOCATION_ID CHK
+CHECK(LOCATION_ID IN('L1','L2','L3','L4','L5')), OriginalSql = -- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+ALTER TABLE DEPT_COPY
+ADD CONSTRAINT LOCATION_ID CHK
+CHECK(LOCATION_ID IN('L1','L2','L3','L4','L5')), Error Msg = ORA-02438: 열 검사제약은 다른 열을 참조할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-08-23 10:27:09.385 - SQL Error [1735] [42000]: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+
+Error position: line: 47 pos: 228
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1735] [42000]: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:553)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 1735, Position : 228, Sql = -- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+ALTER TABLE DEPT_COPY
+ADD CONSTRAINT LOCATION_ID CHK,
+CHECK(LOCATION_ID IN('L1','L2','L3','L4','L5')), OriginalSql = -- DEPT_COPY 테이블의 LOCATION_ID 컬럼에 CHECK 제약조건 추가
+-- 컬럼에 작성할 수 있는 값은 L1, L2, L3, L4, L5 
+-- 제약조건명 : LOCATION_ID_CHK
+ALTER TABLE DEPT_COPY
+ADD CONSTRAINT LOCATION_ID CHK,
+CHECK(LOCATION_ID IN('L1','L2','L3','L4','L5')), Error Msg = ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-08-23 10:32:25.021 - Error while analyzing query text: ALTER TABLE
+---------------------------
+
+-- DEPT_COPY에 추가한 제약조건 중 PK 빼고 모두 삭제
+
+-- NOT NULL 제거 시 MODIFY 사용
+
+
+---------------------------------------------------------------------------------
+-- 2. 컬럼 추가/수정/삭제
+
+-- 컬럼 추가 : ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- 컬럼 수정 : ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;   (데이터 타입 변경)
+--             ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; (기본값 변경)
+
+--> ** 데이터 타입 수정 시 컬럼에 저장된 데이터 크기 미만으로 변경할 수 없다.
+
+
+-- 컬럼 삭제 : ALTER TABLE 테이블명 DROP (삭제할컬럼명);
+--             ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+--> ** 테이블에는 최소 1개 이상의 컬럼이 존재해야 되기 때문에 모든 컬럼 삭제 X
+
+-- 테이블이란? 행과 열로 이루어진 데이터베이스의 가장 기본적인 객체
+
+
+-- (추가)
+-- DEPT_COPY 컬럼에 CNAME VARCHAR2(20) 컬럼 추가
+-- ALTER TABLE 테이블명 ADD(컬럼명 데이터타입 [DEFAULT '값']);
+
+
+-- (추가)
+-- DEPT_COPY 테이블에 LNAME VARCHAR2(30) 기본값 '한국' 컬럼 추가
+
+
+-- (수정)
+-- DEPT_COPY 테이블의 DEPT_ID 컬럼의 데이터 타입을 CHAR(2) -> VARCHAR2(3)으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 데이터타입;
+
+
+-- (수정 에러 상황)
+-- DEPT_TITLE 컬럼의 데이터타입을 VARCHAR2(10)으로 변경
+
+
+-- (기본값 수정)
+-- LNAME 기본값을 '한국' -> '대한민국' 으로 변경
+-- ALTER TABLE 테이블명 MOIDFY 컬럼명 DEFAULT '값'; 
+
+
+-- (삭제)
+-- DEPT_COPY에 추가한 컬럼(CNAME, LNAME) 삭제
+-->  ALTER TABLE 테이블명 DROP(삭제할컬럼명);
+
+
+-->  ALTER TABLE 테이블명 DROP COLUMN 삭제할컬럼명;
+
+
+
+
+-- * DDL / DML을 혼용해서 사용할 경우 발생하는 문제점
+-- DML을 수행하여 트랜잭션에 변경사항이 저장된 상태에서
+-- COMMIT/ROLLBACK 없이 DDL 구문을 수행하게되면
+-- DDL 수행과 동시에 선행 DML이 자동으로 COMMIT 되어버림.
+
+
+
+
+--> 결론 : DML/DDL 혼용해서 사용하지 말자!!!
+
+
+-------------------------------------------------------------------------------
+
+-- 3. 테이블 삭제
+
+-- [작성법]
+-- DROP TABLE 테이블명 [CASCADE CONSTRAINTS];
+
+
+-- 일반 삭제(DEPT_COPY)
+
+
+
+-- ** 관계가 형성된 테이블 삭제 **
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+-- 4. 컬럼, 제약조건, 테이블 이름 변경(RENAME)
+
+-- 테이블 복사
+CREATE TABLE DEPT_COPY AS SELECT * FROM DEPARTMENT
+java.lang.UnsupportedOperationException: identifier expected while facing with error
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:345)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:441)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:422)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:238)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:183)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:735)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:542)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:90)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-08-23 10:33:13.150 - Execution context closed (KH_LHH(KH1234), 2)
+2024-08-23 10:33:13.323 - DBeaver is stopping
+2024-08-23 10:33:13.323 - Stop instance server
+2024-08-23 10:33:14.330 - Instance server has been stopped
+2024-08-23 10:33:14.331 - DBeaver shutdown completed
